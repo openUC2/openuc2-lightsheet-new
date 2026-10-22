@@ -1,0 +1,208 @@
+{
+  "key": "B",
+  "title": "B - tall, uniform sheet, 4 x 4",
+  "grid_mm": 50.0,
+  "cols": 4,
+  "rows": 4,
+  "frame": "cells (column, row), row 0 at the top; cell centre (50 c, -50 r); one cube layer; sample from above on the XYZ stage",
+  "cells": [
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "kind": "fibre",
+      "label": "Fibre + collimator f28",
+      "module": "fibre FC/PC (PRT-2161 INSFIBHOL) + f28 D16 lens (PRT-2102)",
+      "source": "FluoBox laser",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "kind": "kinmirror",
+      "label": "Kinematic mirror",
+      "module": "ASS - 2013 - CUBKINMIR45°90° - V04",
+      "source": "CoreBox / kit",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "kind": "cyl",
+      "label": "Cylindrical lens f100 (turned: power in the drawing)",
+      "module": "ASS - 2054 - CUBLENCYL30x32F100 - V04 - A, turned 90 deg",
+      "source": "LightSheet add-on",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        2,
+        0
+      ],
+      "kind": "free",
+      "label": "free (later: slit or pivot scanner)",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        3,
+        0
+      ],
+      "kind": "aquarium",
+      "label": "Aquarium, detection window 3 mm from the sheet",
+      "module": "new insert for ASS - 2052 - CUBAQU - V04",
+      "source": "new insert",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        0,
+        2
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        0,
+        3
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        1,
+        2
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        1,
+        3
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        2,
+        3
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        3,
+        1
+      ],
+      "kind": "obj10x",
+      "label": "Electronic z-stage with 10x imaging objective",
+      "module": "L Plan 10x (InfinityBox) on the electronic z-stage",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "kind": "zdrive",
+      "label": "",
+      "module": "z-stage drive (stepper, lead screw)",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        3,
+        2
+      ],
+      "kind": "filter",
+      "label": "Emission filter",
+      "module": "ASS - 2053 - CUBREMOVAEMIFILWLS485 - V04 - A",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        3,
+        3
+      ],
+      "kind": "camera",
+      "label": "Camera with tube lens f100",
+      "module": "CLENS-100TEL + HIK MV-CE060-10UM-PRO (IMX178)",
+      "source": "InfinityBox",
+      "beam_direction": "-y"
+    }
+  ],
+  "lenses_on_path": [
+    {
+      "lens": "cylinder f100, power across the sheet",
+      "part": "ASS - 2054 - CUBLENCYL30x32F100 - V04 - A (turned 90 deg)",
+      "cell": [
+        1,
+        0
+      ],
+      "path_from_sheet_mm": -102.8515694477475,
+      "moved_from_cell_centre_mm": -2.8515694477474938
+    }
+  ],
+  "sheet": {
+    "waist_fwhm_um": 7.569061880783494,
+    "length_2zr_mm": 0.7114634436194035,
+    "height_mm": 4.832700361051944,
+    "fwhm_at_0.49_um": 12.883752671151823,
+    "fwhm_at_0.74_um": 17.47013009003956,
+    "irradiance_w_cm2_per_mw": 4.098320538348307
+  },
+  "detection": {
+    "strehl": 0.7957193799019499,
+    "mtf_2um": 0.3044804360039441,
+    "mtf_4um": 0.5061216742069655,
+    "rms_waves": 0.07605229967713156,
+    "axial_fwhm_um": 20.758673679955436,
+    "na": 0.25,
+    "detect_water_mm": 3.0
+  },
+  "notes": [
+    "Kit's f100 cylinder turned 90 deg, two cells before the sheet; no extra lenses.",
+    "Sheet 4.8 mm tall: 83 % brightness at the long edge of the field."
+  ]
+}

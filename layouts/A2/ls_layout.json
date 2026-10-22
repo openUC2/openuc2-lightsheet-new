@@ -1,0 +1,163 @@
+{
+  "key": "A2",
+  "title": "A2 - fewest parts",
+  "grid_mm": 50.0,
+  "cols": 3,
+  "rows": 4,
+  "frame": "cells (column, row), row 0 at the top; cell centre (50 c, -50 r); one cube layer; sample from above on the XYZ stage",
+  "cells": [
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "kind": "fibre",
+      "label": "Fibre collimator f11.2",
+      "module": "fibre collimator f11.2 (BUY DM11x27.8) in a round clamp",
+      "source": "new holder",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        0,
+        2
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        0,
+        3
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "kind": "kinmirror",
+      "label": "Kinematic mirror",
+      "module": "ASS - 2013 - CUBKINMIR45°90° - V04",
+      "source": "CoreBox / kit",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "kind": "cyl",
+      "label": "Cylindrical lens f50 (power in the drawing)",
+      "module": "f50 cylinder in a rotatable cartridge",
+      "source": "new holder",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        2,
+        0
+      ],
+      "kind": "aquarium",
+      "label": "Aquarium, detection window 3 mm from the sheet",
+      "module": "new insert for ASS - 2052 - CUBAQU - V04",
+      "source": "new insert",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        1,
+        3
+      ],
+      "kind": "free",
+      "label": "free",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "kind": "obj10x",
+      "label": "Electronic z-stage with 10x imaging objective",
+      "module": "L Plan 10x (InfinityBox) on the electronic z-stage",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "kind": "zdrive",
+      "label": "",
+      "module": "z-stage drive (stepper, lead screw)",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        2,
+        2
+      ],
+      "kind": "filter",
+      "label": "Emission filter",
+      "module": "ASS - 2053 - CUBREMOVAEMIFILWLS485 - V04 - A",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        2,
+        3
+      ],
+      "kind": "camera",
+      "label": "Camera with tube lens f100",
+      "module": "CLENS-100TEL + HIK MV-CE060-10UM-PRO (IMX178)",
+      "source": "InfinityBox",
+      "beam_direction": "-y"
+    }
+  ],
+  "lenses_on_path": [
+    {
+      "lens": "cylinder f50, power across the sheet",
+      "part": "user's f50 cylinder (holder to be made)",
+      "cell": [
+        1,
+        0
+      ],
+      "path_from_sheet_mm": -52.85427238055075,
+      "moved_from_cell_centre_mm": -2.8542723805507535
+    }
+  ],
+  "sheet": {
+    "waist_fwhm_um": 9.461161539445195,
+    "length_2zr_mm": 1.1116226668401061,
+    "height_mm": 1.9335544096239854,
+    "fwhm_at_0.49_um": 12.612861000577801,
+    "fwhm_at_0.74_um": 15.753875001843346,
+    "irradiance_w_cm2_per_mw": 8.194774206903807
+  },
+  "detection": {
+    "strehl": 0.7957193799019499,
+    "mtf_2um": 0.3044804360039441,
+    "mtf_4um": 0.5061216742069655,
+    "rms_waves": 0.07605229967713156,
+    "axial_fwhm_um": 20.758673679955436,
+    "na": 0.25,
+    "detect_water_mm": 3.0
+  },
+  "notes": [
+    "Short collimator gives a 1.9 mm beam directly; sheet 1.9 mm tall (crop the long side)."
+  ]
+}

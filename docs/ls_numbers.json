@@ -1,0 +1,586 @@
+{
+  "fov_mm": [
+    1.4745599999999999,
+    0.98304
+  ],
+  "variants": {
+    "K": {
+      "title": "kit as documented: f28 collimator, f100 cylinder into the pupil of the 4x (f 31)",
+      "beam_d_mm": 4.832711971479862,
+      "na_air": 0.07794696728193325,
+      "w0_um": 1.9928397257199304,
+      "fwhm0_um": 2.3463894663296356,
+      "zr_mm": 0.034185243946214104,
+      "height_mm": 1.4981229160846659,
+      "fwhm_short_edge_um": 33.81819823265436,
+      "fwhm_long_edge_um": 50.65941933068665,
+      "height_fraction_long_edge": 0.14405190591149913,
+      "irradiance_w_cm2_per_mw": 42.64717805969019,
+      "stations": [
+        {
+          "s": -164.85189471019237,
+          "lens": "cylinder f100, power along the sheet height",
+          "part": "ASS - 2054 - CUBLENCYL30x32F100 - V04 - A",
+          "cell": [
+            0,
+            1
+          ]
+        },
+        {
+          "s": -33.85189471019237,
+          "lens": "4x objective (f 31)",
+          "part": "BUY - Objectiv 4x - XXX in ASS - 2088 - CUBRMSTHRMOV - V04",
+          "cell": [
+            1,
+            0
+          ]
+        }
+      ],
+      "lens_shift_mm": {
+        "cylinder f100, power along the sheet height": -14.851894710192369,
+        "4x objective (f 31)": 16.14810528980763
+      },
+      "fibre_cell": [
+        0,
+        3
+      ],
+      "collimator": "collimator f28 D16 (FluoBox laser)",
+      "s_collimator": -250.0
+    },
+    "K45": {
+      "title": "kit as documented: f28 collimator, f100 cylinder into the pupil of the 4x (f 45)",
+      "beam_d_mm": 4.8327032966177885,
+      "na_air": 0.053696703295753205,
+      "w0_um": 2.8928400668355563,
+      "fwhm0_um": 3.4060588882265197,
+      "zr_mm": 0.07203487177194394,
+      "height_mm": 2.174697005884288,
+      "fwhm_short_edge_um": 23.489034508507558,
+      "fwhm_long_edge_um": 35.02715551370979,
+      "height_fraction_long_edge": 0.39871358379084265,
+      "irradiance_w_cm2_per_mw": 20.238901564218807,
+      "stations": [
+        {
+          "s": -192.85197292695534,
+          "lens": "cylinder f100, power along the sheet height",
+          "part": "ASS - 2054 - CUBLENCYL30x32F100 - V04 - A",
+          "cell": [
+            0,
+            1
+          ]
+        },
+        {
+          "s": -47.85197292695534,
+          "lens": "4x objective (f 45)",
+          "part": "BUY - Objectiv 4x - XXX in ASS - 2088 - CUBRMSTHRMOV - V04",
+          "cell": [
+            1,
+            0
+          ]
+        }
+      ],
+      "lens_shift_mm": {
+        "cylinder f100, power along the sheet height": -42.85197292695534,
+        "4x objective (f 45)": 2.148027073044659
+      },
+      "fibre_cell": [
+        0,
+        3
+      ],
+      "collimator": "collimator f28 D16 (FluoBox laser)",
+      "s_collimator": -250.0
+    },
+    "A": {
+      "title": "compact 3 x 4: f28 collimator, 2:1 Galilean reducer (f100, f-50), f50 cylinder",
+      "beam_d_mm": 2.416548638354584,
+      "na_air": 0.02416548638354584,
+      "w0_um": 6.428351977073237,
+      "fwhm0_um": 7.568806046063195,
+      "zr_mm": 0.35570767471141235,
+      "height_mm": 2.41675747770015,
+      "fwhm_short_edge_um": 12.910074993629971,
+      "fwhm_long_edge_um": 17.418353841966024,
+      "height_fraction_long_edge": 0.4749521448328557,
+      "irradiance_w_cm2_per_mw": 8.195536702865478,
+      "stations": [
+        {
+          "s": -200.0,
+          "lens": "lens f100 D40 (CoreBox)",
+          "part": "ASS - 2022 - CUBLEND40F100 - V04",
+          "cell": [
+            0,
+            2
+          ]
+        },
+        {
+          "s": -150.0,
+          "lens": "lens f-50 D43 (CoreBox)",
+          "part": "ASS - 2023 - CUBLEND43F-50 - V04",
+          "cell": [
+            0,
+            1
+          ]
+        },
+        {
+          "s": -52.853986020260095,
+          "lens": "cylinder f50, power across the sheet",
+          "part": "user's f50 cylinder (holder to be made)",
+          "cell": [
+            1,
+            0
+          ]
+        }
+      ],
+      "lens_shift_mm": {
+        "cylinder f50, power across the sheet": -2.853986020260095
+      },
+      "fibre_cell": [
+        0,
+        3
+      ],
+      "collimator": "collimator f28 D16 (FluoBox laser)",
+      "s_collimator": -250.0
+    },
+    "A0": {
+      "title": "A without the reducer: thin, short sheet for small regions",
+      "beam_d_mm": 4.832700360929381,
+      "na_air": 0.0483270036092938,
+      "w0_um": 3.2142695653937436,
+      "fwhm0_um": 3.7845132013610527,
+      "zr_mm": 0.08893209675318473,
+      "height_mm": 4.832733565860315,
+      "fwhm_short_edge_um": 21.256291076163407,
+      "fwhm_long_edge_um": 31.60243856087239,
+      "height_fraction_long_edge": 0.8301112898109536,
+      "irradiance_w_cm2_per_mw": 8.196623178705051,
+      "stations": [
+        {
+          "s": -52.85199865262969,
+          "lens": "cylinder f50, power across the sheet",
+          "part": "user's f50 cylinder (holder to be made)",
+          "cell": [
+            1,
+            0
+          ]
+        }
+      ],
+      "lens_shift_mm": {
+        "cylinder f50, power across the sheet": -2.851998652629689
+      },
+      "fibre_cell": [
+        0,
+        3
+      ],
+      "collimator": "collimator f28 D16 (FluoBox laser)",
+      "s_collimator": -250.0
+    },
+    "A2": {
+      "title": "fewest parts: f11.2 fibre collimator, f50 cylinder",
+      "beam_d_mm": 1.9332579586445127,
+      "na_air": 0.019332579586445128,
+      "w0_um": 8.035570751497358,
+      "fwhm0_um": 9.461161539445195,
+      "zr_mm": 0.5558113334200531,
+      "height_mm": 1.9335544096239854,
+      "fwhm_short_edge_um": 12.6299863136658,
+      "fwhm_long_edge_um": 15.716878667320445,
+      "height_fraction_long_edge": 0.31249491905616605,
+      "irradiance_w_cm2_per_mw": 8.194774206903807,
+      "stations": [
+        {
+          "s": -52.85427238055075,
+          "lens": "cylinder f50, power across the sheet",
+          "part": "user's f50 cylinder (holder to be made)",
+          "cell": [
+            1,
+            0
+          ]
+        }
+      ],
+      "lens_shift_mm": {
+        "cylinder f50, power across the sheet": -2.8542723805507535
+      },
+      "fibre_cell": [
+        0,
+        1
+      ],
+      "collimator": "fibre collimator f11.2",
+      "s_collimator": -150.0
+    },
+    "B": {
+      "title": "4 x 4, tall uniform sheet: f28 collimator, f100 cylinder two cells before the sheet",
+      "beam_d_mm": 4.832659605396335,
+      "na_air": 0.024163298026981677,
+      "w0_um": 6.428569263078456,
+      "fwhm0_um": 7.569061880783494,
+      "zr_mm": 0.35573172180970175,
+      "height_mm": 4.832700361051944,
+      "fwhm_short_edge_um": 12.909938611040898,
+      "fwhm_long_edge_um": 17.41798743893748,
+      "height_fraction_long_edge": 0.8301091658450049,
+      "irradiance_w_cm2_per_mw": 4.098320538348307,
+      "stations": [
+        {
+          "s": -102.8515694477475,
+          "lens": "cylinder f100, power across the sheet",
+          "part": "ASS - 2054 - CUBLENCYL30x32F100 - V04 - A (turned 90 deg)",
+          "cell": [
+            1,
+            0
+          ]
+        }
+      ],
+      "lens_shift_mm": {
+        "cylinder f100, power across the sheet": -2.8515694477474938
+      },
+      "fibre_cell": [
+        0,
+        1
+      ],
+      "collimator": "collimator f28 D16 (FluoBox laser)",
+      "s_collimator": -200.0
+    }
+  },
+  "detection": [
+    {
+      "d_water": 9.08,
+      "na": 0.2,
+      "rms_waves": 0.08881803164299397,
+      "strehl": 0.7300596929847472,
+      "mtf_2um": 0.19982065035646043,
+      "mtf_4um": 0.38280891530801436,
+      "lateral_fwhm_um": 1.3340832703643528,
+      "axial_fwhm_um": 33.508874564809226,
+      "w040_optiland": 1.1916042415149524,
+      "w040_analytic": 1.1731124425927144
+    },
+    {
+      "d_water": 9.08,
+      "na": 0.25,
+      "rms_waves": 0.21886634144356412,
+      "strehl": 0.2731445286931922,
+      "mtf_2um": 0.09656755049256499,
+      "mtf_4um": 0.1195395535219637,
+      "lateral_fwhm_um": 0.9131092204068737,
+      "axial_fwhm_um": 73.01625792705924,
+      "w040_optiland": 2.9363130080197295,
+      "w040_analytic": 2.8640440492986183
+    },
+    {
+      "d_water": 9.08,
+      "na": 0.3,
+      "rms_waves": 0.45929272843567354,
+      "strehl": 0.12976818415129254,
+      "mtf_2um": 0.04498307656143328,
+      "mtf_4um": 0.0807383752237529,
+      "lateral_fwhm_um": 0.7190392874331405,
+      "axial_fwhm_um": 137.8212535198455,
+      "w040_optiland": 6.161687767914012,
+      "w040_analytic": 5.938881740625615
+    },
+    {
+      "d_water": 4.08,
+      "na": 0.2,
+      "rms_waves": 0.04112592492995389,
+      "strehl": 0.9356935778580114,
+      "mtf_2um": 0.22843866960460596,
+      "mtf_4um": 0.5442375702849799,
+      "lateral_fwhm_um": 1.3360543653731611,
+      "axial_fwhm_um": 31.077617884075003,
+      "w040_optiland": 0.5517574124323639,
+      "w040_analytic": 0.540574073012057
+    },
+    {
+      "d_water": 4.08,
+      "na": 0.25,
+      "rms_waves": 0.1016174470087129,
+      "strehl": 0.6622230654302673,
+      "mtf_2um": 0.26515120003345416,
+      "mtf_4um": 0.40173774819653063,
+      "lateral_fwhm_um": 1.0711403652753133,
+      "axial_fwhm_um": 22.259652323646733,
+      "w040_optiland": 1.3633127454850187,
+      "w040_analytic": 1.3197609204395921
+    },
+    {
+      "d_water": 4.08,
+      "na": 0.3,
+      "rms_waves": 0.21394537046174308,
+      "strehl": 0.2768145669198754,
+      "mtf_2um": 0.1130461932989379,
+      "mtf_4um": 0.08203325457582947,
+      "lateral_fwhm_um": 0.7584677235636845,
+      "axial_fwhm_um": 49.66699374399585,
+      "w040_optiland": 2.870256958642438,
+      "w040_analytic": 2.7366562446235383
+    },
+    {
+      "d_water": 3.0,
+      "na": 0.2,
+      "rms_waves": 0.030762257517648862,
+      "strehl": 0.9631633174981072,
+      "mtf_2um": 0.23048314671353815,
+      "mtf_4um": 0.5696941258062018,
+      "lateral_fwhm_um": 1.3390378434183063,
+      "axial_fwhm_um": 30.865452448049503,
+      "w040_optiland": 0.41271570590026463,
+      "w040_analytic": 0.40394578518263513
+    },
+    {
+      "d_water": 3.0,
+      "na": 0.25,
+      "rms_waves": 0.07605229967713156,
+      "strehl": 0.7957193799019499,
+      "mtf_2um": 0.3044804360039441,
+      "mtf_4um": 0.5061216742069655,
+      "lateral_fwhm_um": 1.0645818284430912,
+      "axial_fwhm_um": 20.758673679955436,
+      "w040_optiland": 1.0203290947383512,
+      "w040_analytic": 0.9861957646060425
+    },
+    {
+      "d_water": 3.0,
+      "na": 0.3,
+      "rms_waves": 0.16022779697797343,
+      "strehl": 0.34932175892123546,
+      "mtf_2um": 0.10966588908768174,
+      "mtf_4um": 0.2054889164407293,
+      "lateral_fwhm_um": 0.8871041888464177,
+      "axial_fwhm_um": 43.122366599648146,
+      "w040_optiland": 2.1495975660816424,
+      "w040_analytic": 2.04497553748709
+    },
+    {
+      "d_water": 2.0,
+      "na": 0.2,
+      "rms_waves": 0.021146576375488568,
+      "strehl": 0.9826161478606452,
+      "mtf_2um": 0.23392228021816025,
+      "mtf_4um": 0.5839206720999227,
+      "lateral_fwhm_um": 1.3379808465308507,
+      "axial_fwhm_um": 30.711816855601967,
+      "w040_optiland": 0.2837089946289916,
+      "w040_analytic": 0.2774381112665036
+    },
+    {
+      "d_water": 2.0,
+      "na": 0.25,
+      "rms_waves": 0.05230505690832112,
+      "strehl": 0.897890631700372,
+      "mtf_2um": 0.33767096821210735,
+      "mtf_4um": 0.5907917448587232,
+      "lateral_fwhm_um": 1.066615213401881,
+      "axial_fwhm_um": 20.043679439885224,
+      "w040_optiland": 0.7017334619657201,
+      "w040_analytic": 0.6773391388342372
+    },
+    {
+      "d_water": 2.0,
+      "na": 0.3,
+      "rms_waves": 0.11026057853501454,
+      "strehl": 0.6169392714607226,
+      "mtf_2um": 0.254099552518403,
+      "mtf_4um": 0.4257129635632278,
+      "lateral_fwhm_um": 0.8903960993423554,
+      "axial_fwhm_um": 15.944055331391887,
+      "w040_optiland": 1.4792471507150324,
+      "w040_analytic": 1.4045304382866741
+    },
+    {
+      "d_water": 0.0,
+      "na": 0.2,
+      "rms_waves": 9.666645345366027e-06,
+      "strehl": 0.9999999400638864,
+      "mtf_2um": 0.23653446484792354,
+      "mtf_4um": 0.5975318418773399,
+      "lateral_fwhm_um": 1.3377320443079344,
+      "axial_fwhm_um": 30.5856682698766,
+      "w040_optiland": 0.00012969089294924437,
+      "w040_analytic": 0.0
+    },
+    {
+      "d_water": 0.0,
+      "na": 0.25,
+      "rms_waves": 2.3943361615703342e-05,
+      "strehl": 0.9999996291077522,
+      "mtf_2um": 0.37148273571071155,
+      "mtf_4um": 0.6771983348483859,
+      "lateral_fwhm_um": 1.0701856657302584,
+      "axial_fwhm_um": 19.511985486659388,
+      "w040_optiland": 0.0003212293431685049,
+      "w040_analytic": 0.0
+    },
+    {
+      "d_water": 0.0,
+      "na": 0.3,
+      "rms_waves": 5.055862751694432e-05,
+      "strehl": 0.9999983288160804,
+      "mtf_2um": 0.46910732629566365,
+      "mtf_4um": 0.7311753829894633,
+      "lateral_fwhm_um": 0.8918214932114933,
+      "axial_fwhm_um": 13.49658942630743,
+      "w040_optiland": 0.0006782955054105684,
+      "w040_analytic": 0.0
+    }
+  ],
+  "camera": [
+    {
+      "sensor": "IMX178 (HIK MV-CE060-10UM-PRO, today)",
+      "pixel_um": 2.4,
+      "f_tl": 100.0,
+      "px_obj_um": 0.48,
+      "fov_mm": [
+        1.4745599999999999,
+        0.98304
+      ]
+    },
+    {
+      "sensor": "IMX178 (HIK MV-CE060-10UM-PRO, today)",
+      "pixel_um": 2.4,
+      "f_tl": 200.0,
+      "px_obj_um": 0.24,
+      "fov_mm": [
+        0.7372799999999999,
+        0.49152
+      ]
+    },
+    {
+      "sensor": "IMX264 / IMX250",
+      "pixel_um": 3.45,
+      "f_tl": 100.0,
+      "px_obj_um": 0.6900000000000001,
+      "fov_mm": [
+        1.6891200000000002,
+        1.4131200000000002
+      ]
+    },
+    {
+      "sensor": "IMX264 / IMX250",
+      "pixel_um": 3.45,
+      "f_tl": 200.0,
+      "px_obj_um": 0.34500000000000003,
+      "fov_mm": [
+        0.8445600000000001,
+        0.7065600000000001
+      ]
+    },
+    {
+      "sensor": "IMX174 / IMX249",
+      "pixel_um": 5.86,
+      "f_tl": 100.0,
+      "px_obj_um": 1.1720000000000002,
+      "fov_mm": [
+        2.2502400000000002,
+        1.4064
+      ]
+    },
+    {
+      "sensor": "IMX174 / IMX249",
+      "pixel_um": 5.86,
+      "f_tl": 200.0,
+      "px_obj_um": 0.5860000000000001,
+      "fov_mm": [
+        1.1251200000000001,
+        0.7032
+      ]
+    },
+    {
+      "sensor": "IMX585",
+      "pixel_um": 2.9,
+      "f_tl": 100.0,
+      "px_obj_um": 0.58,
+      "fov_mm": [
+        2.2272,
+        1.2528
+      ]
+    },
+    {
+      "sensor": "IMX585",
+      "pixel_um": 2.9,
+      "f_tl": 200.0,
+      "px_obj_um": 0.29,
+      "fov_mm": [
+        1.1136,
+        0.6264
+      ]
+    }
+  ],
+  "system": [
+    {
+      "variant": "K",
+      "d_water": 9.08,
+      "axial_fwhm_um": [
+        2.4211611595198894,
+        21.776227723723135,
+        25.694558476258784
+      ]
+    },
+    {
+      "variant": "K",
+      "d_water": 3.0,
+      "axial_fwhm_um": [
+        2.4168470021793187,
+        17.72202328304941,
+        19.226922374026934
+      ]
+    },
+    {
+      "variant": "A",
+      "d_water": 9.08,
+      "axial_fwhm_um": [
+        7.280012252043241,
+        11.62118022696835,
+        14.629568084208717
+      ]
+    },
+    {
+      "variant": "A",
+      "d_water": 3.0,
+      "axial_fwhm_um": [
+        7.121904870880716,
+        10.992554768463531,
+        13.382361888059048
+      ]
+    },
+    {
+      "variant": "A2",
+      "d_water": 9.08,
+      "axial_fwhm_um": [
+        8.904940776424931,
+        11.4152565999585,
+        13.562283266390779
+      ]
+    },
+    {
+      "variant": "A2",
+      "d_water": 3.0,
+      "axial_fwhm_um": [
+        8.628234538602348,
+        10.815923942246162,
+        12.563008533964203
+      ]
+    },
+    {
+      "variant": "B",
+      "d_water": 9.08,
+      "axial_fwhm_um": [
+        7.280250694572712,
+        11.621080876985667,
+        14.629342584929827
+      ]
+    },
+    {
+      "variant": "B",
+      "d_water": 3.0,
+      "axial_fwhm_um": [
+        7.122121966845276,
+        10.992469096344411,
+        13.38219744975214
+      ]
+    }
+  ],
+  "infinity_space": {
+    "chief_mm": 4.4305014072901505,
+    "bundle_r_mm": 5.0
+  }
+}

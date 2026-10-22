@@ -1,0 +1,174 @@
+{
+  "key": "K",
+  "title": "Today (kit, as documented)",
+  "grid_mm": 50.0,
+  "cols": 3,
+  "rows": 4,
+  "frame": "cells (column, row), row 0 at the top; cell centre (50 c, -50 r); one cube layer; sample from above on the XYZ stage",
+  "cells": [
+    {
+      "cell": [
+        0,
+        3
+      ],
+      "kind": "fibre",
+      "label": "Fibre + collimator f28",
+      "module": "fibre FC/PC (PRT-2161 INSFIBHOL) + f28 D16 lens (PRT-2102)",
+      "source": "FluoBox laser",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        0,
+        2
+      ],
+      "kind": "free",
+      "label": "(old f25 lens cube)",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "kind": "cyl",
+      "label": "Cylindrical lens f100 (power out of the drawing)",
+      "module": "ASS - 2054 - CUBLENCYL30x32F100 - V04 - A",
+      "source": "LightSheet add-on",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "kind": "mirror",
+      "label": "Mirror",
+      "module": "ASS - 2020 - CUBMIR45°TH2 - V04",
+      "source": "CoreBox",
+      "beam_direction": "+y"
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "kind": "obj4x",
+      "label": "4x illuminating objective",
+      "module": "4x objective in ASS - 2088 - CUBRMSTHRMOV - V04",
+      "source": "CoreBox",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        2,
+        0
+      ],
+      "kind": "aquarium",
+      "label": "Aquarium (sample chamber)",
+      "module": "ASS - 2052 - CUBAQU - V04",
+      "source": "LightSheet add-on",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        1,
+        3
+      ],
+      "kind": "free",
+      "label": "",
+      "module": "-",
+      "source": "",
+      "beam_direction": "+x"
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "kind": "obj10x",
+      "label": "Electronic z-stage with 10x imaging objective",
+      "module": "L Plan 10x (InfinityBox) on the electronic z-stage",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "kind": "zdrive",
+      "label": "",
+      "module": "z-stage drive (stepper, lead screw)",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        2,
+        2
+      ],
+      "kind": "filter",
+      "label": "Emission filter",
+      "module": "ASS - 2053 - CUBREMOVAEMIFILWLS485 - V04 - A",
+      "source": "LightSheet add-on",
+      "beam_direction": "-y"
+    },
+    {
+      "cell": [
+        2,
+        3
+      ],
+      "kind": "camera",
+      "label": "Camera with tube lens f100",
+      "module": "CLENS-100TEL + HIK MV-CE060-10UM-PRO (IMX178)",
+      "source": "InfinityBox",
+      "beam_direction": "-y"
+    }
+  ],
+  "lenses_on_path": [
+    {
+      "lens": "cylinder f100, power along the sheet height",
+      "part": "ASS - 2054 - CUBLENCYL30x32F100 - V04 - A",
+      "cell": [
+        0,
+        1
+      ],
+      "path_from_sheet_mm": -164.85189471019237,
+      "moved_from_cell_centre_mm": -14.851894710192369
+    },
+    {
+      "lens": "4x objective (f 31)",
+      "part": "BUY - Objectiv 4x - XXX in ASS - 2088 - CUBRMSTHRMOV - V04",
+      "cell": [
+        1,
+        0
+      ],
+      "path_from_sheet_mm": -33.85189471019237,
+      "moved_from_cell_centre_mm": 16.14810528980763
+    }
+  ],
+  "sheet": {
+    "waist_fwhm_um": 2.3463894663296356,
+    "length_2zr_mm": 0.06837048789242821,
+    "height_mm": 1.4981229160846659,
+    "fwhm_at_0.49_um": 33.71412143817989,
+    "fwhm_at_0.74_um": 50.84591368784813,
+    "irradiance_w_cm2_per_mw": 42.64717805969019
+  },
+  "detection": {
+    "strehl": 0.2731445286931922,
+    "mtf_2um": 0.09656755049256499,
+    "mtf_4um": 0.1195395535219637,
+    "rms_waves": 0.21886634144356412,
+    "axial_fwhm_um": 73.01625792705924,
+    "na": 0.25,
+    "detect_water_mm": 9.08
+  },
+  "notes": [
+    "Sheet 2.3 um thin but only 0.07 mm long; the camera sees 1.47 x 0.98 mm.",
+    "Detection through 9.1 mm of water: Strehl 0.27 at NA 0.25."
+  ]
+}
